@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Rest Country</title>
+</head>
+<body data-theme="light">
+    <!-- loader -->
+    <div id="loader" class="loader"></div>
+    <div id="content" class="hidden">
+
+    <!-- Container -->
+    <div class="container">
+        <!-- head -->
+        <header id="heading">
+            <h1>Where in the world?</h1>
+            <!-- dark mode or light mode -->
+            <i id="toggle" class="fa-solid fa-circle-half-stroke"></i>
+        </header>
+
+        <div class="card">
+
+            <form id="form">
+
+                <!-- search input -->
+                <div id="inputcard">
+                    <input type="text" id="countryName" placeholder="Enter country name here...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <!-- Drop Down -->
+                <div id="dropDownCon">
+                    <div class="dropDown">
+                        <p>Filter be Region</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="drop">
+                        <p class="region">All</p>
+                        <p class="region">Africa</p>
+                        <p class="region">America</p>
+                        <p class="region">Asia</p>
+                        <p class="region">Europe</p>
+                        <p class="region">Oceania</p>
+                    </div>
+                </div>
+
+            </form>
+
+            <div id="boxs">
+                <!-- Card creating here... -->
+            </div>
+        </div>
+    </div>
+    <!-- Java Script link -->
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
